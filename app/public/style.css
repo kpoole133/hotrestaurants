@@ -8,3 +8,15 @@
 .tableContainer{
     border:1px black solid;
 }
+.reservationsHeader{
+    border: 1px black solid;
+    background-color:#D8D8D8;
+}
+.reservationsListBody{
+    background-color:#D8D8D8;
+    margin:2px;
+}
+.reservationFormHeader{
+    background-color:#D8D8D8;
+
+}

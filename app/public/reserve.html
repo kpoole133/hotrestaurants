@@ -13,18 +13,42 @@
 
 <body>
     <div class="jumbotron">
-        <h1 class="display">HOT RESTAURANT</h1>Current Reservations and Waiting List
+        <h1 class="display">HOT RESTAURANT</h1>
         <hr class="my-4">
         <p class='display'>Make A Reservation</p>
         <div class=buttonContainer>
-            <a class="btn btn-primary btn-lg tables" href='./reserve.html' role="button">Make Reservationiew Tables</a> <a class="btn btn-primary btn-lg" href="#" role="button">Home</a>
-            <a class="btn btn-danger btn-lg tables" href='./table.html' role="button">View Reservations</a>
+            <a class="btn btn-primary btn-lg tables" href='./table.html' role="button">View Tables</a>
+            <a class="btn btn-danger btn-lg" href="./home.html" role="button">Home</a>
         </div>
     </div>
-
-
-
-
+    <div class='reservationFormContainer'>
+        <div class='reservationFormHeader'>
+            <p>Get A Reservation</p>
+        </div>
+        <div class='reservationFormBody'>
+            <form>
+                <div class="form-group">
+                    <label for="nameInput">Name</label>
+                    <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumberInput">Phone Number</label>
+                    <input type="text" class="form-control" id="phoneNumberInput" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Email</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="uniqueID">Unique ID</label>
+                    <input type="text" class="form-control" id="idInput"
+                        placeholder="Enter An ID For Yourself">
+                </div>
+                <button type="submit" class="btn btn-primary submit">Submit</button>
+            </form>
+        </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -18,15 +18,15 @@ var customers = [];
 var waitlist = [];
 
 app.get('/', function(req,res) {
-	res.sendFile(path.join(__dirname, 'index.html'));
+	res.sendFile(path.join(__dirname, './public/home.html'));
 });
 
 app.get('/tables', function(req, res) {
-	res.sendFile(path.join(__dirname, 'tables.html'));
+	res.sendFile(path.join(__dirname, './public/table.html'));
 });
 
 app.get('/reserve', function(req, res) {
-	res.sendFile(path.join(__dirname, 'reservation.html'))
+	res.sendFile(path.join(__dirname, './public/reserve.html'))
 });
 
 app.get('/api/tables', function(req, res) {
